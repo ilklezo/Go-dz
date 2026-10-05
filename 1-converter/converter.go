@@ -7,6 +7,6 @@ func main() {
 		usdInEur = 0.92
 		usdInRub = 1.60
 	)
-	eurInRub := usdInEur / usdInRub
+	eurInRub := usdInRub / usdInEur
 	fmt.Println(eurInRub)
 }
